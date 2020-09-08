@@ -1,0 +1,16 @@
+import java.awt.*;
+import java.applet.*;
+
+public class chestersapplet extends Applet {
+
+    public void init() {
+        setBackground(Color.white);
+    }
+
+    public void paint(Graphics g) {
+        g.setColor(Color.blue);
+        g.drawString("Chester", 50, 60 );
+        g.setColor(Color.red);
+        g.drawString("Bornhijm",50,80);
+    }
+}
